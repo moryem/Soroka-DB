@@ -10,8 +10,6 @@ pre_process.py - Class for pre-process the images – resize to a pre-defined si
 
 read_unilateral.py - Class for reading the Soroka dataset for a unilateral model. It produces mammograms.npy, labels.npy and birads.npy, which are the mammograms, their binary labels and their Bi-Rads level respectively.
 
-read_bilateral.py - Class for reading the Soroka dataset for a bilateral model. It produces the right and left inputs of the train set and the test set, with their binary labels. 
-
-read_similarity_test.py - Class for creating pairs of bilateral mammograms and their labels for the test set of the mammograms asymmetry model.
+read_bilateral.py - Class for reading the Soroka dataset for a bilateral model. It produces the right and left inputs of the train set and the test set, with their binary labels.
 
 data augmentation.py - Script for creating augmentation on a specified train set
